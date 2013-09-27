@@ -6,6 +6,7 @@
 
 " vimconf is not vi-compatible
 set nocompatible
+:map <F2> :FufLine<CR>
 :map <F3> :FufFile<CR>
 :map <F4> :NERDTreeToggle<CR>
 
