@@ -4,6 +4,13 @@
 " Source:       http://github.com/timss/vimconf "
 "-----------------------------------------------"
 
+augroup Shebang
+    autocmd BufNewFile *.\(pl\|pm\) 0put=\"#!/usr/bin/env perl\"|$
+    autocmd BufNewFile *.\(pl\|pm\) 2put=\"use strict;\"|$
+    autocmd BufNewFile *.\(pl\|pm\) 3put=\"use warnings;\<nl> \<nl> \"|$
+    autocmd BufNewFile * start
+augroup END
+
 " vimconf is not vi-compatible
 set nocompatible
 :map <F2> :FufLine<CR>
