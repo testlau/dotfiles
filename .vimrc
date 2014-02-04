@@ -188,7 +188,7 @@ nnoremap <silent> <C-W>w :tabclose<CR>
             " set encoding=utf-8                    " for character glyphs
         """ }}}
         """ Gvim {{{
-            set guifont=DejaVu\ Sans\ Mono\ 9
+            set guifont=DejaVu\ Sans\ Mono\ 7.8
             set guioptions-=m                       " remove menubar
             set guioptions-=T                       " remove toolbar
             set guioptions-=r                       " remove right scrollbar
